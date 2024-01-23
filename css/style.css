@@ -269,6 +269,10 @@ button {
   z-index: 9;
 }
 
+.primary-nav li:hover {
+  filter: brightness(0.95);
+}
+
 #site-nav[aria-expanded='true'] .primary-nav {
   translate: 0 0;
 }
